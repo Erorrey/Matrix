@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "Source Italic";
+    src: url(../fonts/SourceSerif4-Italic-VariableFont_opszwght.ttf);
+}
+@font-face {
+    font-family: "Source";
+    src: url(../fonts/SourceSerif4-VariableFont_opszwght.ttf);
+}
+@font-face {
+    font-family: "Julius";
+    src: url(../fonts/JuliusSansOne-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+a > img{
+    width: 100px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 164px;
+    border-bottom: 1px solid rgb(160, 160, 160) ;
+}
+.main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.main_header > h1{
+    font-family: "Julius";
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    align-items: center;
+    gap: 20px;
+}
+.navigation > a{
+    text-decoration: none;
+    color: black;
+    font-family: "Source";
+    font-size: 20px;
+    
+}
+.app_button{
+    background: black;
+    color: white !important;
+    font-size: 16px !important;
+    width: 105px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 900px;
+}
+.right_container{
+    width: 594px;
+    height: 775px;
+    
+}
+.right_container > img{
+    height: 775px;
+    width: 594px;
+    border-radius: 15px;
+    box-shadow: 9px 8px 15px 0 rgba(0, 0, 0, 0.25);
+}
+.left_container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+.left_container_upper > h1{
+    font-family: "Source";
+    font-size: 47px;
+    line-height: 150%;
+    width: 702px;
+    height: 392px;
+    font-weight: normal;
+}
+.left_container_bottom > h3{
+    font-family: "Source";
+    font-size: 24px;
+    width: 702px;
+    height: 355px;
+    line-height: 150%;
+    font-weight: normal;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 264px;
+}
+.main_footer{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: solid #E6E6E6 1px;
+}
+.upper_left{
+    width: 60%;
+}
+.upper_right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+}
+.upper_left > h1{
+   height: 80%;
+   display: flex;
+   
+   font-weight: 100;
+   font-family: "Julius";
+}
+.bottom{
+    width: 100%;
+}
+.text > h2{
+    font-size: 16px;
+    font-family: "Source";
+    font-weight: normal;
+}
+.text > h3{
+    font-size: 16px;
+    font-family: "Source";
+    font-weight: normal;
+    color: #454545;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+   
+}
+.icons_div{
+    display: flex;
+    gap: 69px;
+}
